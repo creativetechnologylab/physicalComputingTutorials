@@ -14,7 +14,7 @@ Wiring up the sensors is simple:
 
 This example turns on the built-in LED when the soil is dry.
 
-````
+````c++
 int sensorPin = A0; 
 int sensorValue;  
 int limit = 300; //300-600 is a good range of moisture generally
