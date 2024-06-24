@@ -45,7 +45,7 @@ In this example, we are using the potentiometer to control two audios. It will p
 
 <p class="callout warning"> <b>DF layer will not initiate!</b><br / > If you didn't put in the SD card, or have no MP3 files in the SD card, the module will not work. Make sure you are using .mp3, not .wav or any other audio formats.<br / ></p>
 
-````
+````c++
 #include "SoftwareSerial.h"
 #include "DFRobotDFPlayerMini.h"
 
