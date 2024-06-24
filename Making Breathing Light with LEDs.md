@@ -21,7 +21,7 @@ Wiring is simple, there are just 2 wires and a resistor.
 ![image](https://github.com/creativetechnologylab/physicalComputingTutorials/assets/64136454/03110a2e-267a-48b9-b42f-22d8fb09f3b8)
 
 # Getting started
-```
+```c++
 #define led 3 //any PWM pins (~)
 #define led2 11 //optional 2nd led
 
