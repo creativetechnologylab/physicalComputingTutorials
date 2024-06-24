@@ -38,7 +38,7 @@ to be used, as long as you match the number of pins in the code.
 And you will need to use PWM(~) pins for both speed control pins on the IC (IC pin1 & 9). 
 # Get started
 This example code will let you test the directions of the motors and has custom functions for `forward()`,  `backward()`,  `stop()`,  `turnRight()` and  `turnLeft()`.
-````
+````c++
 //L293D
 //Motor A
 const int motorAspeed  = 3;
