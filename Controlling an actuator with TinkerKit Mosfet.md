@@ -23,7 +23,8 @@ On the other side there are four screw terminals, labeled:
 
 <p class="callout warning">**Warning**<br />The TinkerKit Mosfet can only drive up to 24V DC.</p>
 
-![TinkerKit Mosfet.png](https://lab.arts.ac.uk/uploads/images/gallery/2022-07/scaled-1680-/JLLz28tPfOm8Nk3d-th-20627825.png)
+![image](https://github.com/creativetechnologylab/physicalComputingTutorials/assets/64136454/aa6360c8-362f-43d7-a0d1-f7220edb6ab9)
+
 
 # Getting started
 After wiring up the board it can be controlled via `digitalWrite` just like an LED. There are some quick examples below:
