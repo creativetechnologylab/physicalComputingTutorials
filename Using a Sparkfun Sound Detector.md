@@ -44,7 +44,7 @@ Once wired, the code is that of a standard `digitalRead` or `analogRead` to obta
 
 ## Example code reading envelope
 
-````
+````c++
 #define envelopePin A0
 
 void setup() {
@@ -59,7 +59,7 @@ void loop() {
 
 ## Example code reading gate
 
-````
+````c++
 #define gatePin 2
 
 void setup() {
