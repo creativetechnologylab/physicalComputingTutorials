@@ -7,7 +7,7 @@
 ## Getting started
 There is a built-in example called `BlinkWithoutDelay` which demonstrates controlling timing without using `delay()`. Rather than pausing everything to keep the light on/off for a specific amount of time, we are setting up a timer to count the time for the actuator to action. In this example, you can see the value of the variable `interval` is actually equal to the same amount of `delay()` you will need to get the same result of blinking every 1 second.
 
-```
+```c++
 // constants won't change. Used here to set a pin number:
 const int ledPin = LED_BUILTIN;  // the number of the LED pin
 
@@ -64,7 +64,7 @@ There are three wires to connect on the Arduino side:
 
 ### Code
 In this code we are adding one more LED to the circuit. The built-in LED will stay the same, on and off every 1 second. The second LED will be one for 1 second and off for 5 second.
-```
+```c++
 const int ledPin =  LED_BUILTIN;
 const int ledPin2 = 3; 
 
