@@ -41,7 +41,7 @@ This is a great demo of how to play files from the SD card via Serial.
 `njkn`
 
 **You will need to replace "Serial" with "Serial1" in the code if you are using Arduino Leonardo!**
-````
+````c++
 void setup() {
   // Start the serial port at 38.4K
   Serial.begin( 38400 ); 
@@ -68,7 +68,7 @@ void loop() {
 ## Sample MP3 files
 To help you get up and running quickly there are 5 example MP3's you can use with the basic example of Tom saying 1-5.
 
-[Example MP3 Files](https://lab.arts.ac.uk/attachments/43)
+[example-sounds Files](https://github.com/creativetechnologylab/physicalComputingTutorials/tree/main/additional%20resources)
 
 
 # Resources
