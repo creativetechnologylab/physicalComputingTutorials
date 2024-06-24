@@ -1,6 +1,8 @@
 # What is relay?
 A relay is a switch that opens or closes electrical circuits when activated by a signal between low-powered digital electronics and high-powered devices. It is handy when the thing you want to control requires higher power (voltage/current) than the microcontroller can give. Arduino can only give max. 5V and 40 mA. In this tutorial, I will use a water pump and a 1-channel 5V relay module as an example, but it can be applied to a lot of other things as well, such as lights and actuators. The relay module may vary from model to model, and they have their own maximum voltage and current ratings and power requirements, so please refer to the datasheet of the one you have. 
-[![](https://lab.arts.ac.uk/uploads/images/gallery/2024-02/scaled-1680-/cIvz5HZaz0M9bmKr-image-1708447520994.png)](https://lab.arts.ac.uk/uploads/images/gallery/2024-02/cIvz5HZaz0M9bmKr-image-1708447520994.png)
+
+![image](https://github.com/creativetechnologylab/physicalComputingTutorials/assets/64136454/226760a0-8b5d-4699-80b6-1962d66ddd6a)
+
 
 Relay module has different models providing 1/2/4/6/8 channel(s). An 8-channel relay module means it can control 8 devices. In this tutorial, I will be only using a 1 channel relay to control one water pump.
 
@@ -26,7 +28,8 @@ Relay module has different models providing 1/2/4/6/8 channel(s). An 8-channel r
 - COM - red(+) wire of battery
 - connect the black(-) wire of the water pump and black(-) wire of battery together
 
-[![relayWaterpumpCircuit.png](https://lab.arts.ac.uk/uploads/images/gallery/2024-02/scaled-1680-/HR2tLOdvVJg3exAS-relaywaterpumpcircuit.png)](https://lab.arts.ac.uk/uploads/images/gallery/2024-02/HR2tLOdvVJg3exAS-relaywaterpumpcircuit.png)
+![image](https://github.com/creativetechnologylab/physicalComputingTutorials/assets/64136454/98f19a22-2de7-4364-abff-2fc236d7909c)
+
 
 # Getting started
 The following is a simple code that will make the water pump turn on for 1 second and off for 1 second.
