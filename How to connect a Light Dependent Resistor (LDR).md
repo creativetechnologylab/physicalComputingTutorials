@@ -22,7 +22,7 @@ The following code uses `analogRead()` to get a integer between 0-1023 represent
 
 The code below uses the serial port to output the value every 50ms to the [Serial Monitor](https://learn.adafruit.com/adafruit-arduino-lesson-5-the-serial-monitor/the-serial-monitor).
 
-````
+````c++
 #define ldrPin A0
 
 void setup() {
