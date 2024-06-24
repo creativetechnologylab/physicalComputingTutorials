@@ -51,13 +51,13 @@ There is an example in the library for Arduino and Processing which can control 
 ### Serial Port
 Before you run the code in Processing, we have to set up the serial port for the communication between Arduino and Processing. Go to line 15.
 
-``
+```c++
  port = new Serial(this, "COM20", 9600); 
-``
+```
 "COM20" is the name of the serial port, every USB port on everyone's computer is different. **Replace "COM20" with your own port name.** For me, my port name is *"/dev/cu.usbmodem14601"* so I changed the code like this.
-``
+```c++
  port = new Serial(this, "/dev/cu.usbmodem14601", 9600); 
-``
+```
 
 You can find your port name at the bottom of your Arduino IDE or go to Tools > Port > ########(Arduino #####).
 ![image](https://github.com/creativetechnologylab/physicalComputingTutorials/assets/64136454/dfd065ce-df8c-41e8-9943-0e93e3cb095e)
