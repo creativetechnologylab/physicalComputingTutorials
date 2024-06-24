@@ -49,7 +49,7 @@ Adafruit, Sparkfun, Seeedstudio and Bare Conductive all provide Arduino librarie
 
 The key thing to remember when using examples from the Bare Conductive library is that they use the address `0x5C` rather than the default `0x5A` address used on both the Sparkfun and Adafruit boards, also ensure that you use the correct IRQ pin based on the example you are using.
 
-We have a tutorial on [how to install a library](https://lab.arts.ac.uk/books/prototyping-lab/page/how-to-install-libraries) here.
+We have a tutorial on [how to install a library](https://github.com/creativetechnologylab/physicalComputingTutorials/blob/main/How%20to%20install%20libraries.md) here.
 
 # Getting started
 After installing the library and wiring the board, go ahead and use the examples in the File > Examples menu in Arduino, the Simple Touch example is particularly good as it's simple to check it's working.
