@@ -6,7 +6,7 @@ In order to use this you'll need to follow the guide on [How to install librarie
 
 The following is a modification of the basic MIDIUSB write example, by wrapping the `noteOn` and `noteOff` code in logic you could attach this to a button or sensor.
 
-````
+````c++
 #include "MIDIUSB.h"
 
 void setup() {
