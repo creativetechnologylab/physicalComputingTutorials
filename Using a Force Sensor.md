@@ -15,7 +15,7 @@ Wiring up the sensor is simple, the sensor is unpolarized so it's doesn't matter
 
 This example turns on the built-in LED when touched lightly.
 
-````
+````c++
 int sensorPin = A0; 
 int sensorValue; 
 
