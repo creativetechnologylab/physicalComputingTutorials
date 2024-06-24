@@ -11,10 +11,12 @@ The simplest method of installing libraries is using the Library Manager built i
 You can access the Library Manager from the menu bar:
 *Sketch - Include Library - Manage Libraries...*
 
-![manageLibraries.png](https://lab.arts.ac.uk/uploads/images/gallery/2022-06/scaled-1680-/jl8elafTuC60rGJf-managelibraries.png)
+![image](https://github.com/creativetechnologylab/physicalComputingTutorials/assets/64136454/5ea905fb-dbc4-48be-ad8e-8351c26cfad2)
+
 
 A new window will open:
-![libraryManager.png](https://lab.arts.ac.uk/uploads/images/gallery/2022-06/scaled-1680-/9AqGahbM8CVRsuWB-librarymanager.png)
+![image](https://github.com/creativetechnologylab/physicalComputingTutorials/assets/64136454/fbec804e-4549-4c8b-a66b-12587b9175ac)
+
 
 From here you can search for libraries to use in your code. Only a few libraries are currently available this way, as this feature is relatively new. You will often have to manually download and install a library, following the other two processes.
 
@@ -23,7 +25,8 @@ Locate and download a library you wish to use. Sometimes the library will downlo
 
 Similar to the Library Manager, this option is in the menu bar:
 *Sketch - Include Library - Add .ZIP Library...*
-![addZip.png](https://lab.arts.ac.uk/uploads/images/gallery/2022-06/scaled-1680-/4omfd9nJa8B3ny0W-addzip.png)
+![image](https://github.com/creativetechnologylab/physicalComputingTutorials/assets/64136454/c39d7f71-5d73-465a-a8af-3e8aca68b0bb)
+
 
 Use the file dialog to locate and select the zip file from your Downloads folder. You will be notified if the installation has been successful – otherwise you'll need to install manually.
 
