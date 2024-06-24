@@ -21,7 +21,7 @@ Wiring up the sensor is simple:
 
 This example turns on an LED when the distance measured is less than 30cm and back off when the distance goes over 30cm.
 
-````
+````c++
 #include <HCSR04.h>
 
 // Initialize sensor that uses digital pins 13 and 12.
