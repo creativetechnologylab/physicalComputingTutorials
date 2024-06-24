@@ -27,7 +27,7 @@ We have a tutorial on [how to install a library](https://github.com/creativetech
 # Getting started
 This code will display two bitmap images at intervals of 1 second.
 
-````
+````c++
 #include <SPI.h>
 #include <Wire.h>
 #include <Adafruit_GFX.h>
@@ -247,7 +247,7 @@ You will see the code generated at the bottom and you can paste it in Arduino di
 Change the parameters at the start of the code, including the number of frames, frame sizes etc. Arduino doesn't come with a huge memory, so when you are preparing the animation, you may need to think about how many frames you want and how many frames can Arduino handle, and crop the empty space to minimize the bytes used.  
 
 The below example demonstrates two animations.  
-```
+```c++
 #include <SPI.h>
 #include <Wire.h>
 #include <Adafruit_GFX.h>
