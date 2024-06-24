@@ -18,15 +18,17 @@ There are dozens of different types of switches and buttons, but at their most b
 
 There are many different types for different purposes:
 
-<img width="300px" src="https://lab.arts.ac.uk/uploads/images/gallery/2022-06/scaled-1680-/Qks0lJW5Untido6G-push-buttons.png"	alt="Push buttons"/>
+<img width="300px" src="https://github.com/creativetechnologylab/physicalComputingTutorials/assets/64136454/eb087efe-3f69-425f-91aa-1b32a40c6c85"	alt="Push buttons"/>
+
 
 **Push buttons** like those found in a computer keyboard are really useful for activating an action, like a start video button.
 
-<img width="300px" src="https://lab.arts.ac.uk/uploads/images/gallery/2022-06/scaled-1680-/GZtbwhIWkrYqvgjQ-slideswitch.png"	alt="slide swtich"/>
+<img width="300px" src="https://github.com/creativetechnologylab/physicalComputingTutorials/assets/64136454/328151c5-7866-4c48-9531-3a79d9aaa580"	alt="slide swtich"/>
 
 **Rocker, slide and toggle switches** work more like light switches holding their position, they can be a good way of indicating the mode of a device, such as playing video forward or backwards.
 
-<img width="300px" src="https://lab.arts.ac.uk/uploads/images/gallery/2022-06/scaled-1680-/y5J1x69KyQRHPltp-micro-switches.png"	alt="Micro switch"/>
+<img width="300px" src="https://github.com/creativetechnologylab/physicalComputingTutorials/assets/64136454/9f0b3e0e-eebb-4c8f-81f3-cfc3be07bdf4"	alt="Micro switch"/>
+
 
 **Micro switches** can with motors to detect when it has reached the end of movement, such as in a 3D printer to stop the motor going too far over the end, or to detect if a draw is open or closed.
 
@@ -38,11 +40,13 @@ Although a push button like that in the diagram only has two connections, which 
 
 When the button is pressed the current on one side is able to flow to the other, however when the button is released the circuit is broken and the wire to the Arduino is known as floating, the voltage is indeterminate, so we need to connect it to ground to ensure the Arduino reads 0V.
 
-![buttonInside.png](https://lab.arts.ac.uk/uploads/images/gallery/2022-06/scaled-1680-/pqKqw7QmCHeH06XS-buttoninside.png)
+![image](https://github.com/creativetechnologylab/physicalComputingTutorials/assets/64136454/70b396a7-1327-484a-91a1-fc3d3548d9b2)
+
 
 It's not possible however to do this otherwise when you apply 5V by closing the circuit you would create a short circuit, instead we connect the Arduino pin through a high value 10KΩ resistor to ground, this allows the circuit to quickly reach 0V when the button is released but prevents large amounts of current flowing when the button is pressed.
 
-![buttonarduino.png](https://lab.arts.ac.uk/uploads/images/gallery/2022-06/scaled-1680-/ahPlMYeOBVT2WC9q-buttonarduino.png)
+![image](https://github.com/creativetechnologylab/physicalComputingTutorials/assets/64136454/a8ece5ff-0001-43d9-b457-f3527433779a)
+
 # Getting started
 The following is a simple circuit that will get your button controlling the LED built into the Arduino.
 
