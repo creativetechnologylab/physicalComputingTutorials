@@ -33,7 +33,7 @@ Relay module has different models providing 1/2/4/6/8 channel(s). An 8-channel r
 
 # Getting started
 The following is a simple code that will make the water pump turn on for 1 second and off for 1 second.
-```
+```c++
 const int RELAY_PIN = 3;  // the Arduino pin, which connects to the IN pin of relay
 
 // the setup function runs once when you press reset or power the board
