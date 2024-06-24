@@ -14,7 +14,7 @@ The hall effect sensor is a type of magnetic sensor which can be used for detect
 The following code uses `digitalRead()` to get a integer (1/0) representing the detection of magnet.
 
 
-````
+````c++
 const int hallSensorPin = 2;  // Hall Effect sensor connected to digital pin 2
 int hallSensorState;          // Variable to store the state of the sensor
 
