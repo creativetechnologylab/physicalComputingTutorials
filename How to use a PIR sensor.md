@@ -17,7 +17,7 @@ The output of PIR motion detection sensor can be connected directly to one of th
 
 # Getting started
 
-````
+````c++
 int ledPin = 13;                // LED 
 int pirPin = 3;                 // PIR Out pin 
 int pirStat = 0;                   // PIR status
