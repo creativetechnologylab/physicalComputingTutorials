@@ -38,7 +38,7 @@ This is a great demo of how to play files from the SD card via Serial.
 
 <p class="callout warning"> <b>Warning </b><br / >If you are using Mac OS X to copy the mp3, the file system will automatically add hidden files like: "._0001.mp3" for index, which this module will handle as valid mp3 files. It is really annoying. So you can run following command in terminal to eliminate those files.<br / >
 </p>
-`njkn`
+
 
 **You will need to replace "Serial" with "Serial1" in the code if you are using Arduino Leonardo!**
 ````c++
