@@ -27,7 +27,7 @@ It is quite a complex circuit but try your best to follow!
 # Getting started
 This code is getting the motor to vibrate for 1 second and stop for 1 second.
 
-````
+````c++
 int motorPin = 3; //motor transistor is connected to pin 3
 
 void setup()
