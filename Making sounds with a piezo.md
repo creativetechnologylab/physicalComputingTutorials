@@ -11,11 +11,13 @@ Wiring is simple, there are just two wires, applying power causes the piezo to e
 1. Ground
 2. Power
 
-![piezo.png](https://lab.arts.ac.uk/uploads/images/gallery/2022-06/scaled-1680-/CBYOLpxOnz57Skkh-piezo.png)
+![image](https://github.com/creativetechnologylab/physicalComputingTutorials/assets/64136454/54623c6a-2c38-4b4b-884f-a1dad0f512e4)
+
 
 # Getting started
 To get started quickly you can use one of the examples from the Arduino examples menu:
 
-![Screenshot 2022-06-17 at 14.47.35.png](https://lab.arts.ac.uk/uploads/images/gallery/2022-06/scaled-1680-/psOifnvTAbVupyUK-screenshot-2022-06-17-at-14-47-35.png)
+![image](https://github.com/creativetechnologylab/physicalComputingTutorials/assets/64136454/56e591a1-7ef4-4c66-b8d8-fe715526da11)
+
 
 [Read more about `tone()`](https://www.arduino.cc/en/Reference/Tone)
