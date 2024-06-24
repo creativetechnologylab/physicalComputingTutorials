@@ -1,5 +1,5 @@
 # Controlling NeoMatrix with Processing
-This tutorial is a follow-up to the last [NeoMatrix animation tutorial](https://lab.arts.ac.uk/books/physical-computing/page/how-to-make-animation-on-neomatrix). We are using Processing to create images, videos or realtime interaction and push those to an 8x8 Adafruit NeoMatrix.
+This tutorial is a follow-up to the last [NeoMatrix animation tutorial](https://github.com/creativetechnologylab/physicalComputingTutorials/blob/main/How%20to%20make%20Animation%20on%20NeoMatrix.md). We are using Processing to create images, videos or realtime interaction and push those to an 8x8 Adafruit NeoMatrix.
 
 ![image](https://github.com/creativetechnologylab/physicalComputingTutorials/assets/64136454/0529b7e3-8e45-40bc-b22b-2b2b9ef7a454)
 
