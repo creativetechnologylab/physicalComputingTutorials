@@ -21,7 +21,7 @@ Rotary encoders work using two switches which are operated slightly out of phase
 ## Basic Example
 In this basic example the encoder outputs the value as a positive or negative number from it's starting position.
 
-````
+````c++
 #define enc1A_pin 2
 #define enc1B_pin 3
 
