@@ -1,5 +1,5 @@
 # What is NeoMatrix?
-NeoMatrix is a grid lined up with multiple Neopixel. Neopixel is an addressable LED, meaning that it can be programmed individually. With the library created by Adafruit, you can easily program the Neopixel strip for your project. They come in different sizes and shapes and you can shorten or lengthen them flexibly. Once set up, they are very durable and efficient. They are commonly found in a lot of house decorations or light installations. We have a tutorial about [Neopixel](https://lab.arts.ac.uk/books/physical-computing/page/how-to-use-a-neopixel-strip) here.
+NeoMatrix is a grid lined up with multiple Neopixel. Neopixel is an addressable LED, meaning that it can be programmed individually. With the library created by Adafruit, you can easily program the Neopixel strip for your project. They come in different sizes and shapes and you can shorten or lengthen them flexibly. Once set up, they are very durable and efficient. They are commonly found in a lot of house decorations or light installations. We have a tutorial about [Neopixel](https://github.com/creativetechnologylab/physicalComputingTutorials/blob/main/How%20to%20use%20a%20Neopixel%20strip.md) here.
 
 In this tutorial, we are using an 8x8 NeoMatrix from Adafruit.
 
@@ -29,7 +29,7 @@ We have a tutorial on [how to install a library](https://github.com/creativetech
 
 The example shows the upward arrow first and then the animation of a colour-changing pattern. The upward arrow is for identifying the orientation of your matrix.
 
-````
+````c++
 #include <Adafruit_GFX.h>
 #include <Adafruit_NeoMatrix.h>
 #include <Adafruit_NeoPixel.h>
