@@ -19,7 +19,7 @@ You can use more or less servo motors in your design based on how many joints yo
 # Getting started
 This code is getting the servo motors to rotate based on the potentiometers' values.
 
-````
+```c++
 #include <Servo.h>
 
 #define potRotation      A0 
@@ -60,4 +60,4 @@ void loop() {
   Serial.println("°");
 }
 }
-````
+```
