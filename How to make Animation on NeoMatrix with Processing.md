@@ -47,7 +47,7 @@ There are two types, Progressive and Zigzag.
 
 
 # Processing Code
-We have a tutorial about [serial communication between Processing and Arduino](https://lab.arts.ac.uk/books/physical-computing/page/how-to-send-data-to-processing-from-arduino) so I will skip it here. In this example code, you can draw with your mouse on the screen and the matrix will light up accordingly. 
+We have a tutorial about [serial communication between Processing and Arduino](https://github.com/creativetechnologylab/physicalComputingTutorials/blob/main/How%20to%20send%20data%20to%20Processing%20from%20Arduino.md) so I will skip it here. In this example code, you can draw with your mouse on the screen and the matrix will light up accordingly. 
 
 Before `setup()`, you will need to change the values of `cols`, `rows`, `pixelSize` and `size(cols*pixelSize , rows*pixelSize);` to fit your own project. Please read the comments in the code to see what they represent.
 
@@ -58,7 +58,7 @@ You can put the content that you wish to push to the matrix between `loadPixels(
 
 Learn more about images and pixels in Processing [here](https://processing.org/tutorials/pixels).
 
-````
+````java
 import processing.serial.*;
 
 Serial arduino;
@@ -133,7 +133,7 @@ void mouseDragged() {
 The following code is for an 8x8 Adafruit NeoMatrix with the below configurations.
 1.  the starting point: **Top Left**
 2.  the arrangement: **Progressive**
-````
+````c++
 #include <Adafruit_NeoPixel.h>
 
 int w = 8; //width of matrix
