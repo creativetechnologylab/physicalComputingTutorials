@@ -37,11 +37,13 @@ Wiring is pretty simple, it's an I2C component so it's relatively standard.
 
 ## Sparkfun MPR121
 
-[![sparkfun MPR121.png](https://lab.arts.ac.uk/uploads/images/gallery/2022-09/scaled-1680-/yUWE3Oyzt7WzNqFw-sparkfun-mpr121.png)](https://lab.arts.ac.uk/uploads/images/gallery/2022-09/yUWE3Oyzt7WzNqFw-sparkfun-mpr121.png)
+![image](https://github.com/creativetechnologylab/physicalComputingTutorials/assets/64136454/99c8a614-29a0-43af-b25c-40c443d283fe)
+
 
 ## Adafruit MPR121
 
-[![Adafruit MPR121.png](https://lab.arts.ac.uk/uploads/images/gallery/2022-09/scaled-1680-/rW1dzc1b0EmcVtOu-adafruit-mpr121.png)](https://lab.arts.ac.uk/uploads/images/gallery/2022-09/rW1dzc1b0EmcVtOu-adafruit-mpr121.png)
+![image](https://github.com/creativetechnologylab/physicalComputingTutorials/assets/64136454/8efe988f-961b-4ef3-b184-6ea9eb38842e)
+
 # Library
 Adafruit, Sparkfun, Seeedstudio and Bare Conductive all provide Arduino libraries, however by far the best which includes tools for visualising the data is the [Bare Conductive Touch Board library](https://github.com/BareConductive/mpr121) and [grapher](https://github.com/BareConductive/mpr121-grapher). All libraries should all work interchangeably as long as you get the correct address and IRQ pin.
 
