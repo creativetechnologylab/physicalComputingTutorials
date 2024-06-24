@@ -32,6 +32,8 @@ After wiring up the board it can be controlled via `digitalWrite` just like an L
 ## Basic Example
 This basic example is effectively the blink sketch, the TinkerKit Mosfet operates just like any other digital device.
 
+```c++
+
     #define actuatorPin 6
     
     void setup() {
@@ -45,7 +47,7 @@ This basic example is effectively the blink sketch, the TinkerKit Mosfet operate
       digitalWrite( actuatorPin, LOW );
       delay( 1000 );
     }
-
+```
 ## Advanced Example
 You can also control the speed of some actuators, normally this is only useful for motors, this is accomplished using `analogWrite` (PWM) this is effectively the same as setting the brightness of an LED.
 
@@ -53,6 +55,7 @@ You can also control the speed of some actuators, normally this is only useful f
 Below a certain voltage/PWM value most actuators such as motors will stall (won't turn), this will cause the motor to become extremely hot potentially causing a fire damaging the motor, or burning you.<br /><br />Always make sure your code prevents the speed of the motor going below the stall speed,
  you can find the stall speed by testing different values until the motor is only just turning, this should be your minimum.</p>
 
+```c++
     #define actuatorPin 6
     
     void setup() {
@@ -66,3 +69,4 @@ Below a certain voltage/PWM value most actuators such as motors will stall (won'
         delay( 10 );
       }
     }
+```
