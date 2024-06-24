@@ -1,6 +1,6 @@
 # What is the Sound Detector?
 The Sound Detector is a board made by Sparkfun electronics that provides a way to detect ambient sound levels.
-[![sound detector.png](https://lab.arts.ac.uk/uploads/images/gallery/2022-09/scaled-1680-/DEr9mQcoTZ2gfXpE-sound-detector.png)](https://lab.arts.ac.uk/uploads/images/gallery/2022-09/DEr9mQcoTZ2gfXpE-sound-detector.png)
+![image](https://github.com/creativetechnologylab/physicalComputingTutorials/assets/64136454/85e6886b-c90c-4e3f-b8fd-380f79f55f25)
 
 There are three connections on the board:
 
@@ -21,7 +21,8 @@ This method requires:
 3. Gate to a digital pin on the Arduino (yellow wire in the diagram)
 
 There are three wires:
-[![soundDetectorDigitalDiagram-01.png](https://lab.arts.ac.uk/uploads/images/gallery/2022-09/scaled-1680-/lH203XWCwBecBW15-sounddetectordigitaldiagram-01.png)](https://lab.arts.ac.uk/uploads/images/gallery/2022-09/lH203XWCwBecBW15-sounddetectordigitaldiagram-01.png)
+![image](https://github.com/creativetechnologylab/physicalComputingTutorials/assets/64136454/c589ad40-c593-4cee-83d4-8af12211c318)
+
 
 ## Analog
 Wired up in analog mode the sound detector provides voltage proportional to the sound level.
@@ -34,7 +35,8 @@ This method requires:
 
 There are three wires:
 
-[![soundDetectorAnalogDiagram.png](https://lab.arts.ac.uk/uploads/images/gallery/2022-09/scaled-1680-/FwxX80VIVzpFUpfE-sounddetectoranalogdiagram.png)](https://lab.arts.ac.uk/uploads/images/gallery/2022-09/FwxX80VIVzpFUpfE-sounddetectoranalogdiagram.png)
+![image](https://github.com/creativetechnologylab/physicalComputingTutorials/assets/64136454/43b8ebc6-3e55-4843-80fc-7538ef609b29)
+
 
 
 # Getting started
