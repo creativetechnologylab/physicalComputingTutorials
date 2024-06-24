@@ -17,7 +17,7 @@ Wiring up buttons and switches is simple:
 
 This example sends the potentiometer value measured from Arduino to p5.js via the serial port, you can read the data from the serial monitor.
 
-````
+````c++
 #define potPin A0
 int value;
 
@@ -45,7 +45,7 @@ To access different files in your sketch, you can click the arrow and the panel 
 First we have to install the P5.js WebSerial Library.
 You have to place the below `script` in the `index.html` file, inside the `<head>`.
 
-````
+````js
 <script src="https://unpkg.com/p5-webserial@0.1.1/build/p5.webserial.js"></script>
 ````
 It should look like this.
@@ -55,7 +55,7 @@ It should look like this.
 The below is the example code that should be placed in the `sketch.js` file. Please read the comments in the code to understand what they do.
 
 
-````
+````js
 // variable to hold an instance of the p5.webserial library:
 const serial = new p5.WebSerial();
  
