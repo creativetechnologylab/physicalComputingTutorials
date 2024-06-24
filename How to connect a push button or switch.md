@@ -50,6 +50,7 @@ It's not possible however to do this otherwise when you apply 5V by closing the 
 # Getting started
 The following is a simple circuit that will get your button controlling the LED built into the Arduino.
 
+```c++
     #define ledPin 13
     #define buttonPin 4
     
@@ -67,7 +68,7 @@ The following is a simple circuit that will get your button controlling the LED 
         digitalWrite( ledPin, LOW );
       }
     }
-
+```
 If you want to add a toggle functionality such that one press causes the LED to come on, and another press then turns it off, so you don't have to hold the button down things get a little bit more complex.
 
 The Arduino is a powerful computer and operates many times faster than human perception, as such when the mechanical push button is closed there is a small amount of 'bounce' where the circuit makes and breaks the connection a few times before it settles, this is detected by the Arduino as multiple presses.
