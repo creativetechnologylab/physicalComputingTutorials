@@ -18,7 +18,7 @@ Wiring is super simple with 1 wire:
 
 ## Code
 
-````
+````c++
 #include <ADCTouch.h>
 
 #define TOUCHPIN A0
@@ -86,7 +86,7 @@ The physical setup includes a medium to high value (100K ohm - 50M ohm) resistor
 ![image](https://github.com/creativetechnologylab/physicalComputingTutorials/assets/64136454/835c2dca-1bb6-4bcd-8f82-0dd5a3c2e36a)
 ## Code
 
-````
+````c++
 #include <CapacitiveSensor.h>
 
 CapacitiveSensor   cs_4_2 = CapacitiveSensor(4,2);        // 10M resistor between pins 4 & 2, pin 2 is sensor pin, add a wire and or foil if desired
