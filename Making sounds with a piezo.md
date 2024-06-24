@@ -20,4 +20,4 @@ To get started quickly you can use one of the examples from the Arduino examples
 ![image](https://github.com/creativetechnologylab/physicalComputingTutorials/assets/64136454/56e591a1-7ef4-4c66-b8d8-fe715526da11)
 
 
-[Read more about `tone()`](https://www.arduino.cc/en/Reference/Tone)
+[Read more about `tone()`](https://www.arduino.cc/reference/en/language/functions/advanced-io/tone/)
