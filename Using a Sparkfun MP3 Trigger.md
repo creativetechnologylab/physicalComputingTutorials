@@ -8,7 +8,9 @@ You must us a micro SDSC (up to 2GB) card, or a SDHC (up to 32GB) card formatted
 
 - **USB**: means power from the Arduino.
 - **EXT**: means power via the 2.1mm connector to the left of the switch.
-![mp3trigger.png](https://lab.arts.ac.uk/uploads/images/gallery/2022-06/scaled-1680-/mYR7sRfdQBNASacY-mp3trigger.png)
+
+![image](https://github.com/creativetechnologylab/physicalComputingTutorials/assets/64136454/b61abecc-e3cd-4724-b911-854874a2b29c)
+
 
 ## File naming
 Files should be named 001.MP3 through 018.MP3, and the MP3 Trigger will match the file name to the `TRIG` pins, if you controlling the MP3 Trigger via serial the number will match 0 to 255.
@@ -23,7 +25,8 @@ There are three wires:
 3. Data (RX on the MP3 Trigger to TX on the Arduino)
 4. _Optionally you can connect the TX on the MP3 Trigger back to the RX on the Arduino if you wish to get playback status information._
 
-![mp3trigger wiring_bb.png](https://lab.arts.ac.uk/uploads/images/gallery/2022-06/scaled-1680-/VEGKSaEjkUFfoLtM-mp3trigger-wiring-bb.png)
+![image](https://github.com/creativetechnologylab/physicalComputingTutorials/assets/64136454/f8198133-5cf4-4304-89e3-8bae5e92ab5f)
+
 
 # Getting started
 There are libraries available for the Sparkfun MP3 Trigger however it's so easy to use it's easier to use `Serial.print` to control it rather than a library.
