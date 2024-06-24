@@ -18,7 +18,7 @@ Wiring up buttons and switches is simple:
 
 This example sends the potentiometer value measured from Arduino to Processing via the serial port, you can read the data from the serial monitor.
 
-````
+````c++
 #define potPin A0
 int value;
 
@@ -38,7 +38,7 @@ void loop() {
 
 This example used the data received from Arduino to control the degrees of rotation of a rectangle in Processing.
 
-````
+````java
 import processing.serial.*;
 Serial myPort;
 String val;
