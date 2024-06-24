@@ -28,7 +28,7 @@ Some Arduino boards transmit data much faster than others, in the case of the Ar
 
 This code example outputs the value of all 6 analog input pins on the Arduino:
 
-````
+````c++
 void setup() {
   Serial.begin( 9600 );
 }
@@ -55,13 +55,13 @@ The serial plotter has in built support detecting CSV data and displaying it as 
 
 A simple fix to this problem is to include two fake piece of data which are the minimum and maximum of your data range, by modifying the `Serial.println()` to:
 
-````
+````c++
 	Serial.println( ",0,1023" );
 ````
 
 In this case the minimum is 0, and because analogRead's on most Arduinos are only 10-bit this means the maximum number would be 1023.
 
-````
+````c++
 void setup() {
   Serial.begin( 9600 );
 }
