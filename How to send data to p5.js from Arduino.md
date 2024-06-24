@@ -10,7 +10,8 @@ Wiring up buttons and switches is simple:
 1. Right pin to GND 
 1. middle pin to A0
 
-![pot wiring_bb.png](https://lab.arts.ac.uk/uploads/images/gallery/2022-06/scaled-1680-/eSKiRkeGKuEGYZyj-pot-wiring-bb.png)
+![image](https://github.com/creativetechnologylab/physicalComputingTutorials/assets/64136454/56037262-97f9-4b91-8a17-5f29c1626112)
+
 
 # Arduino Code
 
@@ -38,7 +39,8 @@ This example will show the incoming data from Arduino on the canvas.
 A p5.js sketch is actually a website that consists of a html file, a css file and a java script which makes everything fun.
 To access different files in your sketch, you can click the arrow and the panel on the left will show the files associated with the sketch.
 
-[![panel.png](https://lab.arts.ac.uk/uploads/images/gallery/2023-06/scaled-1680-/XBv4YMtGPTTX3ALn-panel.png)](https://lab.arts.ac.uk/uploads/images/gallery/2023-06/XBv4YMtGPTTX3ALn-panel.png)
+![image](https://github.com/creativetechnologylab/physicalComputingTutorials/assets/64136454/944230de-7d0d-43c0-ad22-7faff31b85df)
+
 
 First we have to install the P5.js WebSerial Library.
 You have to place the below `script` in the `index.html` file, inside the `<head>`.
@@ -47,7 +49,8 @@ You have to place the below `script` in the `index.html` file, inside the `<head
 <script src="https://unpkg.com/p5-webserial@0.1.1/build/p5.webserial.js"></script>
 ````
 It should look like this.
-[![indexhtml.png](https://lab.arts.ac.uk/uploads/images/gallery/2023-06/scaled-1680-/lXb7ehouKJuMZiRK-indexhtml.png)](https://lab.arts.ac.uk/uploads/images/gallery/2023-06/lXb7ehouKJuMZiRK-indexhtml.png)
+![image](https://github.com/creativetechnologylab/physicalComputingTutorials/assets/64136454/6d02bc79-89d3-4fb3-bfab-357e6e2311f4)
+
 
 The below is the example code that should be placed in the `sketch.js` file. Please read the comments in the code to understand what they do.
 
@@ -157,8 +160,10 @@ function closePort() {
 
 # What You Should See
 1. choose port
-[![choosePort.png](https://lab.arts.ac.uk/uploads/images/gallery/2023-06/scaled-1680-/IMAhmFmWqSrFRgBP-chooseport.png)](https://lab.arts.ac.uk/uploads/images/gallery/2023-06/IMAhmFmWqSrFRgBP-chooseport.png)
+![image](https://github.com/creativetechnologylab/physicalComputingTutorials/assets/64136454/ae7d210b-4b9f-4343-bfc9-bee971c942a5)
+
 1. choose Arduino 
-[![choosePort2.png](https://lab.arts.ac.uk/uploads/images/gallery/2023-06/scaled-1680-/HpxLPH6mITZISHsF-chooseport2.png)](https://lab.arts.ac.uk/uploads/images/gallery/2023-06/HpxLPH6mITZISHsF-chooseport2.png)
+![image](https://github.com/creativetechnologylab/physicalComputingTutorials/assets/64136454/89f529c5-3fdf-48df-9068-c3921b81cb17)
+
 1. DONE!
-[![gettingResult.png](https://lab.arts.ac.uk/uploads/images/gallery/2023-06/scaled-1680-/fO2BuufAscOjXoHi-gettingresult.png)](https://lab.arts.ac.uk/uploads/images/gallery/2023-06/fO2BuufAscOjXoHi-gettingresult.png)
+![image](https://github.com/creativetechnologylab/physicalComputingTutorials/assets/64136454/93ca622e-d063-4d9e-bfd6-be1fcc406d41)
