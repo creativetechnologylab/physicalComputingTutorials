@@ -39,7 +39,7 @@ The following is a simple sketch that will get a potentiometer controlling the L
 
 This sketch will make the LED blink at a rate between 0ms to 1023ms, this is because the function `analogRead` returns a value between 0-1023.
 
-````
+````c++
 #define ledPin 13
 #define potPin A0
 
